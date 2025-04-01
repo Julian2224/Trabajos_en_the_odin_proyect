@@ -1,0 +1,24 @@
+* {
+    font-family: Arial, sans-serif;
+}
+#primer_texto {
+    font-size: 24px;
+}
+.p_negrita {
+    font-size: 13px;
+}
+button {
+    height: 28px;
+    margin-bottom: -10px;
+}
+.confirmar {
+    background-color: green;
+    color: white;
+}
+.cancelar {
+    background-color: white;
+}
+div p {
+    font-size: 20px;
+    height: 6px;
+}
