@@ -1,0 +1,15 @@
+.impar {
+    background-color: rgb(205, 122, 176);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#Primer_ID {
+    color: blue;
+    font-size: 36px;
+}
+#clase_especial {
+    font-size: 24px;
+}
+#Segundo_ID {
+    background-color: aquamarine;
+    font-size: 24px;
+}

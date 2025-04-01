@@ -1,0 +1,11 @@
+#ir ,#no_ir {
+    font-size: 28px;
+    font-family: "Helveticay, Times New Roman, sans-serifcomo";
+}
+#ir {
+    background-color: black;
+    color: white;
+}
+#no_ir{
+    background-color: yellow;
+}
