@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(199, 208, 215);
+    font-size: 18px;
+}
+.div_grupo {
+    background-color: rgb(236, 233, 233);
+    margin: 20px;
+    padding: 10px;
+}
+.box1 ,.box2 ,.box3 {
+    margin: 10px;
+    background-color: rgb(195, 230, 230);
+    padding: 10px;
+}
+.box3 {
+    text-align: center; 
+}
+button {
+    height: 30px;
+    border: none;
+
+}
+/*
+Hay 8px entre el borde de la tarjeta y su contenido (las secciones azules).
+Hay un espacio de 8 px entre cada una de las secciones azules dentro de la tarjeta.
+El título de la tarjeta utiliza una fuente de 16px.
+Hay 8px entre el texto del título y el borde de la sección del título.
+La sección de contenido tiene un espacio de 16 px en la parte superior e inferior y 8 px en cada lado.
+Todo dentro de la .button-containersección está centrado y hay un relleno de 8px.
+El botón grande está centrado en su propia línea.
+El botón grande tiene un espacio de 24 px en los lados y 8 px en la parte superior e inferior.
+*/
