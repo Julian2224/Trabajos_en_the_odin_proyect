@@ -1,0 +1,67 @@
+body{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.tarjeta {
+    padding: auto;
+    margin: 50px;
+    border-radius: 10px;
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    display: flex;
+}
+.icono{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(73, 112, 241);
+    background-color: rgb(228, 228, 252);
+    border-radius: 100px;
+    width: 50px;
+    height: 40px;
+    margin: 20px;
+}
+.pregunta {
+    display: flex;
+    justify-content: space-between;
+}
+.esc {
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    margin: 15px;
+}
+.cuerpo {
+    margin: auto;
+    padding: 10px;
+}
+.botones {
+    text-align: left;
+}
+.btn1 {
+    margin: 5px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(73, 112, 241);
+    color: white;
+    border: none;
+}
+.btn2 {
+    margin: 5px;
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(73, 112, 241);
+    background-color: white;
+    border: 1px solid rgb(230, 230, 253);
+}
+.cuerpo_de_la_tarjeta {
+
+    width: 500px;
+    height: 250px;
+}

@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(215, 215, 215);
+}
+.conteiner {
+    padding: 4px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.conteiner-hijo{
+    color: rgb(113, 37, 185);
+    align-items: center;
+    display: flex;
+    margin: 2px;
+    gap: 10px;
+}
+button{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(113, 37, 185);;
+}
+.notificacion {
+    height: 20px;
+}
+.boton-redondo {
+    padding: 15px;
+    border-radius: 100%;
+}
+strong {
+    font-size: 30px;
+}
