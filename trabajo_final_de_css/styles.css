@@ -1,0 +1,185 @@
+* {
+    margin:0px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    gap: 25px;
+    align-items: center;
+    padding: 2vh;
+    color: white;
+    font-family: Roboto;
+    background-color: #1f2937;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin-left: 8vh;
+}
+.nav_header {
+    margin-right: 8vh;
+    justify-content: end;
+    display: flex;
+    gap: 20px;
+}
+main {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.main1 {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 6vh;
+    gap: 6vh;
+}
+.main1_derecho {
+    padding: 10px;
+    color: white;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: #606570;
+}
+.main1_izquierdo {
+    width: 60%;
+    font-size: 40px;
+    color: #f9faf8;
+}
+.boton_main1 {
+    display: flex;
+}
+.texto_main1 {
+    font-size: 18px;
+}
+.main2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.titulo_main2 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 28px;
+}
+.caja0_main2 {
+    display: flex;
+    justify-content: center;
+}
+.cajas_main2 {
+    width: 100vh;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 2vh;
+    font-size: 18px;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+li {
+    width: 130px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width:1200px) {
+    .cajas_main2 {
+      justify-content: center;
+      gap: 80px;
+  }
+}
+.cajas2_main2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 110px;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+}
+.main3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 18px;
+    font-family: light italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #e5e7eb;
+}
+.texto_main3 {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vh;
+}
+.dios_del_trueno{
+    margin-bottom: 10px;
+    display: flex;
+    width: 70vh;
+    justify-content: end;
+}
+.main4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 30px;
+}
+.caja_main4 {
+    border-radius: 2px;
+    width: 90vh;
+    height: 30px;
+    padding: 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+}
+.texto_main4 {
+    width: 70%;
+}
+.boton_main4 {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer {
+    height: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #1f2937;
+    flex: 1;
+}
+button {
+    margin: 2px;
+    padding: 5px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #3882f6;
+}
+.boton_main4 button{
+    border:1px solid white;
+}
